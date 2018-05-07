@@ -7,6 +7,7 @@
 <?use Bitrix\Main\Localization\Loc;
 use Bitrix\Main\Page\Asset;
 Loc::loadMessages(__FILE__);?>
+
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang=<?=LANGUAGE_ID?>>
 <head profile="http://gmpg.org/xfn/11">
     <?$APPLICATION->SetTitle("Page title");?>
@@ -139,6 +140,7 @@ Loc::loadMessages(__FILE__);?>
 </ul>
 <!-- end style switcher -->
 
+
 <!-- start top and main menu -->
 <div class="main-menu">
 <div class="ornament">
@@ -175,6 +177,64 @@ Array(
     </div>
 </div>
 </div>
+<?$APPLICATION->IncludeComponent("bitrix:photo.section", "slider_image", Array(
+	"ADD_SECTIONS_CHAIN" => "N",	// Включать раздел в цепочку навигации
+		"AJAX_MODE" => "N",	// Включить режим AJAX
+		"AJAX_OPTION_ADDITIONAL" => "",	// Дополнительный идентификатор
+		"AJAX_OPTION_HISTORY" => "N",	// Включить эмуляцию навигации браузера
+		"AJAX_OPTION_JUMP" => "N",	// Включить прокрутку к началу компонента
+		"AJAX_OPTION_STYLE" => "Y",	// Включить подгрузку стилей
+		"BROWSER_TITLE" => "-",	// Установить заголовок окна браузера из свойства
+		"CACHE_FILTER" => "N",	// Кешировать при установленном фильтре
+		"CACHE_GROUPS" => "Y",	// Учитывать права доступа
+		"CACHE_TIME" => "36000000",	// Время кеширования (сек.)
+		"CACHE_TYPE" => "A",	// Тип кеширования
+		"DETAIL_URL" => "",	// URL, ведущий на страницу с содержимым элемента раздела
+		"DISPLAY_BOTTOM_PAGER" => "N",	// Выводить под списком
+		"DISPLAY_TOP_PAGER" => "N",	// Выводить над списком
+		"ELEMENT_SORT_FIELD" => "sort",	// По какому полю сортируем фотографии
+		"ELEMENT_SORT_ORDER" => "asc",	// Порядок сортировки фотографий в разделе
+		"FIELD_CODE" => array(	// Поля
+			0 => "ID",
+			1 => "NAME",
+			2 => "SORT",
+			3 => "PREVIEW_PICTURE",
+			4 => "",
+		),
+		"FILTER_NAME" => "arrFilter",	// Имя массива со значениями фильтра для фильтрации элементов
+		"IBLOCK_ID" => "24",	// Инфоблок
+		"IBLOCK_TYPE" => "content",	// Тип инфоблока
+		"LINE_ELEMENT_COUNT" => "3",	// Количество фотографий, выводимых в одной строке таблицы
+		"MESSAGE_404" => "",	// Сообщение для показа (по умолчанию из компонента)
+		"META_DESCRIPTION" => "-",	// Установить описание страницы из свойства
+		"META_KEYWORDS" => "-",	// Установить ключевые слова страницы из свойства
+		"PAGER_BASE_LINK_ENABLE" => "N",	// Включить обработку ссылок
+		"PAGER_DESC_NUMBERING" => "N",	// Использовать обратную навигацию
+		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",	// Время кеширования страниц для обратной навигации
+		"PAGER_SHOW_ALL" => "N",	// Показывать ссылку "Все"
+		"PAGER_SHOW_ALWAYS" => "N",	// Выводить всегда
+		"PAGER_TEMPLATE" => ".default",	// Шаблон постраничной навигации
+		"PAGER_TITLE" => "Фотографии",	// Название категорий
+		"PAGE_ELEMENT_COUNT" => "20",	// Количество элементов на странице
+		"PROPERTY_CODE" => array(	// Свойства
+			0 => "URL",
+			1 => "",
+		),
+		"SECTION_CODE" => "",	// Код раздела
+		"SECTION_ID" => $_REQUEST["SECTION_ID"],	// ID раздела
+		"SECTION_URL" => "",	// URL, ведущий на страницу с содержимым раздела
+		"SECTION_USER_FIELDS" => array(	// Свойства раздела
+			0 => "",
+			1 => "",
+		),
+		"SET_LAST_MODIFIED" => "N",	// Устанавливать в заголовках ответа время модификации страницы
+		"SET_STATUS_404" => "N",	// Устанавливать статус 404
+		"SET_TITLE" => "N",	// Устанавливать заголовок страницы
+		"SHOW_404" => "N",	// Показ специальной страницы
+	),
+	false
+);?><br>
+
 
 <!-- end top and main menu -->
 <!-- start header alternate -->
@@ -197,15 +257,6 @@ Array(
                               function roundaboutimage7(){  $.prettyPhoto.open('<?=SITE_TEMPLATE_PATH;?>/images/showcase/showcase7.jpg', 'title', 'And Another One'); }
                            </script>
                             <!-- the actual roundabout -->
-                    		<ul id="roundabout">
-                    			<li id="roundaboutimage1"><a href="javascript:roundaboutimage1();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase1.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage2"><a href="javascript:roundaboutimage2();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase2.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage3"><a href="javascript:roundaboutimage3();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase3.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage4"><a href="javascript:roundaboutimage4();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase4.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage5"><a href="javascript:roundaboutimage5();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase1.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage6"><a href="javascript:roundaboutimage6();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase2.jpg" alt="" /></a></li>
-                    			<li id="roundaboutimage7"><a href="javascript:roundaboutimage7();"><img src="<?=SITE_TEMPLATE_PATH;?>/images/showcase/roundabout/showcase3.jpg" alt="" /></a></li>
-                        	</ul>
                             <div id="filler"><!--  --></div>
                         </div>
                         <!-- start the roundabout with descriptions -->

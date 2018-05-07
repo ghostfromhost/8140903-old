@@ -20,11 +20,11 @@ $APPLICATION->SetTitle("Каталог книг");
 <hr />
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:catalog.top",
-	"",
-	Array(
-		"IBLOCK_TYPE" => "books",
-		"IBLOCK_ID" => "6",
+	"bitrix:catalog.top", 
+	".default", 
+	array(
+		"IBLOCK_TYPE" => "catalog",
+		"IBLOCK_ID" => "22",
 		"ELEMENT_SORT_FIELD" => "sort",
 		"ELEMENT_SORT_ORDER" => "asc",
 		"SECTION_URL" => "/e-store/books/#SECTION_ID#/",
@@ -36,13 +36,66 @@ $APPLICATION->SetTitle("Каталог книг");
 		"DISPLAY_COMPARE" => "N",
 		"ELEMENT_COUNT" => "3",
 		"LINE_ELEMENT_COUNT" => "1",
-		"PROPERTY_CODE" => Array(),
-		"PRICE_CODE" => Array("RETAIL"),
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"PRICE_CODE" => array(
+			0 => "RETAIL",
+		),
 		"USE_PRICE_COUNT" => "N",
 		"SHOW_PRICE_COUNT" => "1",
 		"CACHE_TYPE" => "A",
-		"CACHE_TIME" => "3600"
-	)
+		"CACHE_TIME" => "3600",
+		"COMPONENT_TEMPLATE" => ".default",
+		"FILTER_NAME" => "",
+		"CUSTOM_FILTER" => "",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"HIDE_NOT_AVAILABLE_OFFERS" => "N",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"PROPERTY_CODE_MOBILE" => array(
+		),
+		"OFFERS_LIMIT" => "5",
+		"VIEW_MODE" => "SECTION",
+		"TEMPLATE_THEME" => "blue",
+		"ADD_PICT_PROP" => "-",
+		"LABEL_PROP" => array(
+		),
+		"SHOW_DISCOUNT_PERCENT" => "N",
+		"SHOW_OLD_PRICE" => "N",
+		"SHOW_MAX_QUANTITY" => "N",
+		"SHOW_CLOSE_POPUP" => "N",
+		"PRODUCT_SUBSCRIPTION" => "Y",
+		"PRODUCT_ROW_VARIANTS" => "[{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false},{'VARIANT':'0','BIG_DATA':false}]",
+		"ENLARGE_PRODUCT" => "STRICT",
+		"PRODUCT_BLOCKS_ORDER" => "price,props,sku,quantityLimit,quantity,buttons",
+		"SHOW_SLIDER" => "Y",
+		"SLIDER_INTERVAL" => "3000",
+		"SLIDER_PROGRESS" => "N",
+		"MESS_BTN_BUY" => "Купить",
+		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
+		"MESS_BTN_DETAIL" => "Подробнее",
+		"MESS_NOT_AVAILABLE" => "Нет в наличии",
+		"PRODUCT_QUANTITY_VARIABLE" => "quantity",
+		"SEF_MODE" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_FILTER" => "N",
+		"PRICE_VAT_INCLUDE" => "Y",
+		"CONVERT_CURRENCY" => "N",
+		"USE_PRODUCT_QUANTITY" => "N",
+		"ADD_PROPERTIES_TO_BASKET" => "Y",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",
+		"PRODUCT_PROPERTIES" => array(
+		),
+		"ADD_TO_BASKET_ACTION" => "ADD",
+		"MESS_BTN_COMPARE" => "Сравнить",
+		"COMPARE_NAME" => "CATALOG_COMPARE_LIST",
+		"USE_ENHANCED_ECOMMERCE" => "N",
+		"COMPATIBLE_MODE" => "Y"
+	),
+	false
 );?>
 
 <h2>Видео-новости</h2>

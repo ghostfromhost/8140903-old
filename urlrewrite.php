@@ -80,7 +80,7 @@ $arUrlRewrite=array (
     'PATH' => '/personal/lists/index.php',
     'SORT' => 100,
   ),
-  4 => 
+  17 => 
   array (
     'CONDITION' => '#^/e-store/books/#',
     'RULE' => '',
