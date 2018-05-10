@@ -1,0 +1,148 @@
+[10-May-2018 07:13:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 13
+[10-May-2018 07:15:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 13
+[10-May-2018 07:21:49 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 3
+[10-May-2018 07:21:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 3
+[10-May-2018 07:22:26 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 3
+[10-May-2018 07:22:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:3
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 3
+[10-May-2018 07:26:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:27:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:27:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 16
+[10-May-2018 07:28:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:53 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 07:28:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:45:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 08:49:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:50:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:50:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:51:01 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:51:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:56:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 9
+[10-May-2018 08:57:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class 'Bitrix\Main\Localization\Loc' not found in /var/www/html/utf/kpi/add/index.php:6
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 6
+[10-May-2018 08:58:05 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 08:58:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 09:03:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 15
+[10-May-2018 09:03:57 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 1
+[10-May-2018 09:03:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 1
+[10-May-2018 09:13:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function IncludeModuleLangFile() in /var/www/html/utf/local/modules/miet.kpi/include.php:2
+Stack trace:
+#0 /var/www/html/utf/kpi/add/index.php(2): require_once()
+#1 {main}
+  thrown in /var/www/html/utf/local/modules/miet.kpi/include.php on line 2
+[10-May-2018 09:15:09 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 1
+[10-May-2018 09:15:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 1
+[10-May-2018 09:37:42 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:37:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:27 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:27 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:28 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Notice:  Undefined variable: APPLICATION in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 09:38:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function IncludeComponent() on null in /var/www/html/utf/kpi/add/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/utf/kpi/add/index.php on line 2
+[10-May-2018 10:11:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 14
+[10-May-2018 10:12:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 10:12:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 4
+[10-May-2018 10:13:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 5
+[10-May-2018 10:14:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 5
+[10-May-2018 10:14:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 5
+[10-May-2018 10:14:20 Europe/Berlin] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /var/www/html/utf/kpi/add/index.php on line 5

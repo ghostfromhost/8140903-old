@@ -1,8 +1,7 @@
 <?php
 $MESS["KPI_ENTITY_ID_FIELD"] = "ID KPI";
-$MESS["KPI_ENTITY_UF_VALUE_FIELD"] = "Р—РЅР°С‡РµРЅРёРµ РїРѕРєР°Р·Р°С‚РµР»СЏ";
-$MESS["KPI_ENTITY_UF_CREATED_FIELD"] = "Р”Р°С‚Р° РІРЅРµСЃРµРЅРёСЏ Р·РЅР°С‡РµРЅРёСЏ
-РїРѕРєР°Р·Р°С‚РµР»СЏ";
-$MESS["KPI_ENTITY_UF_CHANGED_FIELD"] = "Р”Р°С‚Р° РїРѕСЃР»РµРґРЅРµРіРѕ РёР·РјРµРЅРµРЅРёСЏ
-Р·РЅР°С‡РµРЅРёСЏ РїРѕРєР°Р·Р°С‚РµР»СЏ";
+$MESS["KPI_ENTITY_UF_VALUE_FIELD"] = "Значение показателя";
+$MESS["KPI_ENTITY_UF_CREATED_FIELD"] = "Дата внесения значения
+показателя";
+$MESS["KPI_ENTITY_UF_CHANGED_FIELD"] = "Дата последнего изменения значения показателя";
 ?>

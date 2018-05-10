@@ -31,12 +31,7 @@ return array(
 'UF_VALUE' => array(
 'data_type' => 'float',
 'required' => true,
-'validation' => array(//ћетод-валидатор значени€
-__CLASS__,//»м€ класса метода-валидатора, в
-данном случае текущий класс
-'validateValue' //Ќазвание метода-валидатора в
-данном классе
-),
+'validation' => array(__CLASS__, 'validateValue'),
 'title' => Loc::getMessage('KPI_ENTITY_UF_VALUE_FIELD')
 ),
 'UF_DEPARTMENT' => array(
