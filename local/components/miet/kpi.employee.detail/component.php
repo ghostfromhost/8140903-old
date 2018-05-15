@@ -34,6 +34,10 @@ $arResult['OK'] = 'Изменения успешно сохранены';
 $arResult['ERROR'] = 'Ошибка при сохранении';
 }
 }
+
+if($_REQUEST['editKPI']) {
+	KPI\KPIManager::EditKPIEmployee($_REQUEST['KPI'], $_REQUEST['KPIID']);
+}
 ###
 ###Получение данных из БД###
 if($this->StartResultCache(false, array(($arParams["CACHE_GROUPS"] === "N" ? false: $USER->GetGroups()), $bUSER_HAVE_ACCESS))) {
@@ -51,6 +55,17 @@ $arResult['PERIOD_ITEMS'][] = array(
 ###
 ###Получение списка показателей KPI для сотрудника###
 $arResult['ITEMS'] = KPI\KPIManager::GetKPIEmployee($arParams["USER_ID"]);
+
+//$arResult['dataEmployee'] = KPI\KPIManager::getHLEmployee($arParams["USER_ID"]);
+$dataEmployee = KPI\KPIManager::getHLEmployee($arParams["USER_ID"]);
+$dates = [];
+foreach ($dataEmployee as $employee) {
+	$dates[$employee["UF_PERIOD"]->toString()][$employee['UF_KPI']][] = $employee;
+}
+$arResult['dataEmployee'] = $dates;
+//var_dump($arResult['dataEmployee'][0]["UF_PERIOD"]->toString());
+
+
 ###Кэширование значения элементов массива $arResult###
 $this->SetResultCacheKeys(array(
 "ITEMS",

@@ -6,11 +6,40 @@ use Bitrix\Main\Entity\Event;
 use Bitrix\Main\Localization\Loc;
 use Bitrix\Iblock\ElementTable;
 use Bitrix\Main\UserTable;
+use Bitrix\Highloadblock\HighloadBlockTable as HLBT;
+
+const EMPLOYEE_HL_BLOCK_ID = 2;
+//подключаем модуль highloadblock
+\CModule::IncludeModule('highloadblock');
+//Напишем функцию получения экземпляра класса:
+function GetEntityDataClass($HlBlockId) {
+	if (empty($HlBlockId) || $HlBlockId < 1)
+	{
+		return false;
+	}
+	$hlblock = HLBT::getById($HlBlockId)->fetch();	
+	$entity = HLBT::compileEntity($hlblock);
+	$entity_data_class = $entity->getDataClass();
+	return $entity_data_class;
+}
+
 
 Loc::loadMessages(__FILE__);
 class KPIManager {
 const IBLOCK_CODE_KPI = 'kpi';
 const IBLOCK_CODE_DEPARTMENTS = 'departments';
+
+public static function getHLEmployee($employee) {
+	$entity_data_class = GetEntityDataClass(EMPLOYEE_HL_BLOCK_ID);
+	$rsData = $entity_data_class::getList(array(
+	   'select' => array('*'),
+	   'order' => array('UF_PERIOD' => 'ASC'),
+	   'filter' => array('UF_EMPLOYEE' => $employee) 
+	));
+	return $rsData->fetchAll();
+}
+
+
 public static function GetKPI(
 $arOrder = array('SORT' => 'ASC'),
 $arFilter = array(),
@@ -36,9 +65,9 @@ $arSelectFields //массив возвращаемых полей элементов
 while($arElements = $rsElements->Fetch()) {
 //Получение информации о файле с регламентом расчета показателя: ссылка на файл на сервере, название файла и т.д.
 foreach($arElements['PROPERTY_REGULATIONS_VALUE'] as $key => $idFileRegulation) {
-$arElements['PROPERTY_REGULATIONS_VALUE'][$key] =
-\CFile::GetFileArray($idFileRegulation);
+	$arElements['PROPERTY_REGULATIONS_VALUE'][$key] = \CFile::GetFileArray($idFileRegulation);
 }
+
 $elements[] = $arElements;
 }
 return $elements;
@@ -56,6 +85,7 @@ $arDepartmentsUser = UserTable::getList(array(
 'ID' => $idEmployee
 )
 ))->fetch();
+var_dump($arDepartmentsUser);
 //Получаем список всех KPI данных подразделений
 return self::GetKPI(
 array('NAME' => 'asc'),
@@ -67,13 +97,19 @@ array('ID', 'NAME', 'PROPERTY_INDICATOR_TYPE',
 );
 }
 
-public static function GetKPIEmployeeValue($idKPI, $idEmployee, $period) {
-	if(!$idEmployee || !$idKPI || !$period) {
+
+public static function EditKPIEmployee($arKPIValues, $arKPIId) {
+	if(!count($arKPIId) || !count($arKPIValues)) {
 		return array();
 	}
-	
-
+	foreach ($arKPIValues as $KPI => $KPIValue) {
+		$entity_data_class = GetEntityDataClass(EMPLOYEE_HL_BLOCK_ID);
+		$result = $entity_data_class::update($arKPIId[$KPI], array(
+		  'UF_VALUE'=> $KPIValue
+		));
+	}
 }
+
 
 public static function SetKPIEmployee($idEmployee, $period, $arKPIValues) {
 if(!$idEmployee || !is_array($arKPIValues) || !count($arKPIValues)) {
